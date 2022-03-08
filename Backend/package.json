@@ -1,0 +1,35 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node router.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "ejs": "^3.0.1",
+    "exceljs": "^3.5.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jade": "^1.11.0",
+    "js-beautify": "^1.10.2",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.13",
+    "path": "^0.12.7",
+    "sendotp": "^1.2.9",
+    "shortid": "^2.2.15",
+    "twilio": "^3.38.0"
+  },
+  "engines": {
+    "node": "12.4.0"
+  }
+}
