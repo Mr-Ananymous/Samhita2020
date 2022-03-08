@@ -1,0 +1,26 @@
+{
+  "short_name": "Samhita 20",
+  "name": "Official website of Samhita 2020",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "samhita_logo_icon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "samhita_logo_icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "samhita_logo_icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ca0000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,1172 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+.is-lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.has-text-styled {
+	font-family: 'Marcellus SC', serif;
+}
+
+.icon-is-hidden {
+	display: none !important;
+}
+
+.bottom-border {
+	border-bottom: 3px solid black !important;
+}
+
+.outer-container-404 {
+	background-color: rgba(199, 44, 65, 0.863);
+}
+
+.inner-container-404 {
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+}
+
+.error-image {
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+}
+
+.mobile-404-button {
+	margin-bottom: 25px !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.mobile-404-button:hover {
+	transform: scale(1.1);
+	width: 105px !important;
+}
+
+.logo {
+	position: relative;
+	min-width: 10px !important;
+	min-height: 10px !important;
+	max-height: 600px !important;
+	width: 170px !important;
+	height: 65px !important;
+	left: 75px !important;
+	top: initial !important;
+	bottom: 3px !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navbar {
+	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75) !important;
+}
+
+.navbar-icon {
+	margin-right: 10px
+}
+
+.menu-item {
+	transition: all 0.2s cubic-bezier(1, 0, 0, 1);
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	font-size: 12.5pt !important;
+	font-weight: 700;
+}
+
+.menu-item:hover {
+	background-color: rgb(245, 30, 44);
+	color: white !important;
+	font-size: 15.5pt !important;
+}
+
+.menu-item-last {
+	margin-right: 2rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshops-main-container {
+	background-color: rgb(107, 175, 209);
+}
+
+.workshop-container-first {
+	margin-top: 4rem !important;
+	padding: 45px 0px !important;
+	background-color: white;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshop-container {
+	margin-top: 2rem !important;
+	padding: 45px 0px !important;
+	background-color: white;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshop-content {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	padding-right: 65px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshop-content-alt {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	padding-left: 65px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshop-title, .workshop-summary {
+	text-align: justify !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}	
+
+.workshop-title-alt {
+	text-align: left !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.upper {
+	align-self: flex-end !important;
+}
+
+.upper-alt {
+	align-self: flex-start !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.workshop-summary-alt {
+	text-align: justify !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.workshop-detail-row {
+	margin-bottom: 25px !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.workshop-detail-icon-1 {
+	margin-right: 20px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshop-detail-icon-2 {
+	margin-left: -1px !important;
+	margin-right: 18px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.workshop-detail-icon-3 {
+	margin-right: 20px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.buy-ticket-button, .buy-ticket-button-2, .buy-ticket-button-3, .buy-ticket-button-4, .buy-ticket-button-5 {
+	opacity: 1;
+	width: 110px !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+}
+
+.buy-ticket-button:hover, .buy-ticket-button-2:hover, .buy-ticket-button-3:hover, .buy-ticket-button-4:hover, .buy-ticket-button-5:hover  {
+	background-color: rgb(27, 96, 206) !important;
+	justify-content: left !important;
+	width: 135px !important;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+}
+
+.buy-ticket-icon, .buy-ticket-icon-2, .buy-ticket-icon-3, .buy-ticket-icon-4, .buy-ticket-icon-5 {
+	opacity: 1 !important;
+	transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.samhita-main-logo {
+	width: 182px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.samhita-main-title {
+	font-weight: 900 !important;
+}
+
+.samhita-main-container {
+	padding-right: 15px;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.outer-home-container {
+	padding-top: 8rem;
+	padding-left: 4rem;
+	padding-bottom: 2.5rem;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.samhita-summary {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.samhita-summary-main {
+	text-align: justify !important;
+	margin-right: 30px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.insight-box:hover {
+	transform: scale(1.05);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.badge-1 {
+	position: relative;
+	left: 225px;
+	top: 10px;
+	background-color: red;
+	color: white;
+	width: 35px !important;
+	height: 35px !important;
+	border-radius: 50%;
+	padding-top: 1px !important;
+	font-size: 16pt;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.badge-2 {
+	position: relative;
+	left: 140px;
+	top: 10px;
+	background-color: red;
+	color: white;
+	width: 50px !important;
+	height: 35px !important;
+	margin-top: 1px !important;
+	padding-top: 1px !important;
+	border-radius: 45%;
+	font-size: 16pt;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.badge-3 {
+	position: relative;
+	left: 150px;
+	top: 10px;
+	background-color: red;
+	color: white;
+	width: 50px !important;
+	height: 35px !important;
+	margin-top: 1px !important;
+	padding-top: 1px !important;
+	border-radius: 45%;
+	font-size: 16pt;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.home-title {
+	margin-left: 35px;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.get-started-button {
+	align-self: flex-end !important;
+	margin-left: 35px !important;
+	margin-top: 10px !important;
+	margin-bottom: 20px !important;
+	font-size: 14pt !important;
+	font-weight: 500;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-picture {
+	margin-top: -20px !important;
+	margin-left: 50px !important;
+	margin-bottom: -80px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-outer-container {
+	min-height: 100vh;
+	background-color: rgba(199, 44, 65, 0.863);
+}
+
+.login-inner-container {
+	margin-top: 4rem !important;
+	background-color: white !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-title {
+	margin: 45px !important;
+	margin-left: 0px !important;
+	margin-top: 18% !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.form {
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-form-field {
+	width: 75% !important;
+	margin-left: 75px !important;
+	margin-bottom: 20px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-form-label {
+	margin-left: 40px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-form-button {
+	margin-top: 35px !important;
+	margin-bottom: 35px !important;
+	margin-left: 75px !important;
+	width: 75% !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.signup-redirect-box {
+	width: 55% !important;
+	margin-top: 50px !important;
+	margin-left: 150px !important;
+	margin-bottom: -100px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.register-outer-container {
+	min-height: 100vh;
+	background-color: rgb(107, 175, 209);
+}
+
+.register-inner-container {
+	background-color: white;
+	margin-top: 4rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.register-form {
+	border: 2px solid #F24E6E;
+	border-radius: 5px;
+	padding: 30px !important;
+	margin-left: 5% !important;
+	margin-right: 5% !important;
+	box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-form {
+	border: 2px solid #276CDA;
+	border-radius: 5px;
+	margin-top: 5% !important;
+	padding: 30px !important;
+	margin-bottom: 5% !important;
+	margin-left: 5% !important;
+	margin-right: 5% !important;
+	box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.register-button {
+	margin-top: 25px !important;
+	margin-bottom: -15px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.login-redirect-box {
+	margin-top: 45px !important;
+	margin-bottom: -10px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.register-picture {
+	margin-left: 50px !important;
+	padding-bottom: 50px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.ticket-outer-container {
+	margin-top: 35px !important;
+	background-color: rgb(255, 209, 156);
+	box-shadow: inset 0px 0px 9px 1px rgba(0,0,0,0.75);
+}
+
+.benefits-title {
+	margin-left: 30px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.benefits-list {
+	margin-top: 10px !important;
+	margin-left: 20px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contact-outer-container {
+	min-height: 100vh;
+	background-color: #6BAFD1;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contact-main-container {
+	margin-top: 5rem !important;
+	margin-bottom: 5rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.credit-title {
+	margin-left: 20px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.map {	
+	width: 500px !important;
+	height: 300px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.notification {
+	background-color: white !important;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+.login-password-icon:hover {
+	color: rgb(61, 61, 61) !important;
+}
+
+.events-outer-container {
+	margin-top: 5rem !important;
+	padding: 80px;
+	padding-top: 50px !important;
+	padding-bottom: 0px !important;
+	background-color: white;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.event-image {
+	cursor: pointer;
+	width: 100% !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.event-image:hover {
+	transform: scale(1.1);
+}
+
+.mobile-input {
+	padding-top: 5.5px !important;
+	padding-left: 5px !important;
+}
+
+.contact-desktop-image {
+	position: fixed !important;
+	z-index: 99999 !important;
+	right: 10px !important;
+}
+
+.offline-image-container {
+	background-color: #141C75 !important;
+	border-radius: 10px;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+	box-shadow: 0px 5px 7px -3px rgba(0,0,0,0.75) !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.offline-image {
+	width: 50% !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.profile-outer-container {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center !important;
+}
+
+.profile-main-container {
+	margin-top: 5rem !important;
+	margin-left: 5rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.avatar-container {
+	margin-left: -0.5rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.user-details-container {
+	margin-left: 5rem !important;
+	margin-right: 5rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.ticket-status-container {
+	margin-top: 2rem !important;
+	margin-right: 2rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.buy-ticket-container {
+	width: 50% !important;
+	padding: 1.5rem;
+	background-color: white !important;
+	border: 2px solid #0071BC;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.checkout-image {
+	width: 75%!important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	transform: scale(1.1);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.logout-button:hover {
+	background-color: #0071BC;
+	border-color: #0071BC;
+	color: white !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bought-ticket-image {
+	margin-top: -50px!important;
+	width: 50% !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.user-details-container {
+	margin-top: -15px !important;
+	padding-top: 0px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.date {
+	font-size: 26px !important;
+	margin-left: 4px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.event-navigation-icon-right {
+	cursor: pointer;
+	position: relative;
+	top: 7px;
+	left: 15px;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.event-navigation-icon-left {
+	cursor: pointer;
+	position: relative;
+	top: 7px;
+	right: 15px;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.event-navigation-icon-right:hover, .event-navigation-icon-left:hover {
+	color: #1b55b3;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.checkout-detail-row {
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.sponsor-section {
+	background-color: #ca0000 !important;
+}
+
+.act-logo {
+	position: relative;
+	top: -1px !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.sponsors-container {
+	background-color: white !important;
+	padding: 4rem !important;
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.kalvimalar {
+	position: relative;
+	top: 10px;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.last-row-image {
+	width: 60% !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.image-button:hover {
+	transform: scale(1.1);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.sponsors-container {
+	margin-top: 3rem !important;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.samhita-footer {
+	padding: 1rem ;
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+}
+
+.leaving-banner {
+	background-color: #CA0000;
+	margin-left: -4rem !important;
+	margin-top: -3rem !important;
+	margin-bottom: 1.5rem;
+	padding-left: 6rem !important;
+	color: white;
+	font-size: 14pt !important;
+	font-weight: 400;
+	box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,0.75);
+	transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media screen and (max-width: 1024px) {
+
+	.logo {
+		top: 5px;
+		left: 0rem !important;
+		width: 175px !important;
+		height: auto !important;
+		margin-top: 10px !important;
+	}
+
+	.menu-item-first {
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+		margin-left: 15px !important;
+	}
+
+	.user-label {
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+		margin-left: 15px !important;
+	}
+
+	.menu-item-last {
+		margin-right: 0 !important;
+	}
+
+	.outer-home-container {
+		padding-top: 7rem;
+		padding-bottom: 0rem;
+		padding-left: 0rem;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.workshop-container-first {
+		margin-top: 8rem !important;
+	}
+
+	.samhita-main-container {
+		margin-top: 5rem !important;
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.samhita-summary {
+		padding-left: 40px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.login-inner-container {
+		margin-top: 8.5rem !important;
+	}
+
+	.register-inner-container {
+		margin-top: 8.5rem !important;
+	}
+
+	.ticket-outer-container {
+		padding-bottom: 6.5rem !important;;
+	}
+
+	.notification {
+		left: 2% !important;
+		top: 90px !important;
+	}
+
+	.notification-failure {
+		top: 90px !important;
+	}
+
+	.events-outer-container {
+		margin-top: 9rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.contact-main-container {
+		margin-top: 9rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.offline-image {
+		width: 85% !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.profile-main-container {
+		margin-top: 10rem !important;
+		margin-left: 1rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.user-details-container {
+		margin-left: 1rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.buy-ticket-container {
+		width: 80% !important;
+	}
+
+	.checkout-image {
+		width: 100% !important;
+	}
+
+	.bought-ticket-image {
+		width: 85% !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.contact-columns {
+		display: flex !important;
+		flex-direction: column !important;
+		width: 80% !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.contact-image {
+		margin-top: -3.5rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.leaving-banner {
+		margin-top: 2rem !important;
+		font-size: 12pt !important;
+		font-weight: 500 !important;
+		margin-bottom: -3rem !important;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.outer-home-container {
+		padding-top: 11rem !important;
+		padding-bottom: 2rem !important;
+	}
+
+	.inner-container-404 {
+		width: 85% !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.bottom-border {
+		border-bottom: 2px solid black !important;
+	}
+
+	.error-image {
+		width: 85% !important;
+	}
+
+	.caption {
+		font-size: 13pt !important;
+	}
+
+	.mobile-404-button {
+		font-size: 11pt !important;
+	}
+
+	.navbar-end {
+		overflow-x: scroll;
+		padding: 10px 0px !important;
+	}
+
+	.menu-item {
+		font-size: 12pt !important;
+	}
+
+	.menu-item:hover {
+		font-size: 14pt !important;
+	}
+
+	.workshop-container-first {
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		margin-top: 10rem !important;
+	}
+
+	.workshop-container {
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		margin-top: 2rem !important;
+	}
+
+	.workshop-columns {
+		display: flex !important;
+		flex-direction: column-reverse !important;
+	}
+
+	.workshop-content {
+		margin-left: 25px !important;
+		margin-right: -25px !important;
+	}
+
+	.workshop-content-alt {
+		margin-right: 25px !important;
+		margin-left: -25px !important;
+	}
+
+  	.workshop-title {
+		font-size: 18pt !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		text-align: left !important;
+	}
+
+	.workshop-title-alt {
+		font-size: 18pt !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		text-align: left !important;
+	}
+	  
+	.workshop-subtitle {
+		font-size: 12pt !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+
+	.organiser-logo {
+		margin: 0px 5px !important;
+		width: 35px !important;
+		height: 35px !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.workshop-summary {
+		font-size: 13pt !important;
+		text-align: left !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		text-align: justify !important;
+	}
+
+	.workshop-summary-alt {
+		font-size: 13pt !important;
+		text-align: left !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		text-align: justify !important;
+		margin-left: initial !important;
+	}
+
+	.workshop-detail {
+		font-size: 13pt !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.samhita-main-logo {
+		margin-left: -17px !important;
+		width: 140px !important;
+	}
+
+	.samhita-main-container {
+		margin-top: 2rem !important;
+		margin-bottom: -60px !important;
+	}
+
+	.samhita-main-title {
+		font-weight: 700 !important;
+		margin-left: -22px !important;
+		margin-right: auto !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.samhita-summary {
+		padding-left: 20px !important;
+		padding-right: 1px !important;
+	}
+
+	.samhita-summary-main {
+		font-size: 13pt !important;
+		text-align: justify !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.home-titles {
+		margin-top: -20px !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.home-title {
+		font-size: 19pt !important;
+		margin-bottom: -20px;
+		text-align: left;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.get-started-button {
+		margin-left: 30px !important;
+		margin-top: 25px !important;
+		transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+
+	.login-title {
+		margin-top: -50px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.form {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.login-form-field, .login-form-label, .login-form-button {
+		width: 85% !important;
+		margin-left: 25px !important;
+	}
+
+	.login-redirect-box {
+		margin-left: -5px !important;
+		width: 105% !important;
+	}
+
+	.signup-redirect-box {
+		width: 80% !important;
+		margin-left: 40px !important;
+		margin-bottom: 20px !important;
+	}
+
+	.login-inner-container {
+		margin-top: 10rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.register-inner-container {
+		margin-top: 10rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+	
+	.policy {
+		margin-left: initial !important;
+		margin-right: initial !important;
+		margin-bottom: -1.5rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);		
+	}
+
+	.login-picture {
+		margin-left: initial !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.register-form {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 6% !important;
+		padding-right: 6% !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.login-form {
+		margin: -5px 0px -5px 0px !important;
+	}
+
+	.register-picture {
+		margin-left: initial !important;
+		margin-bottom: -85px !important;
+	}
+
+	.ticket-outer-container {
+		padding-bottom: 2rem !important;
+	}
+
+	.benefits-title {
+		font-size: 12pt !important;
+		margin-left: 5px !important;
+		margin-top: 10px !important;
+	}
+
+	.contact-main-container {
+		margin-top: 8rem !important;
+		margin-bottom: 2.5rem !important;
+	}
+
+	.email-label {
+		margin-left: 0px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.credit-title {
+		margin-left: 3px !important;
+	}
+
+	.map {
+		width: 100% !important;
+		height: 300px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.staff {
+		margin-left: -3px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);	
+	}
+
+	.stay-tuned-image {
+		width: initial !important;
+	}
+
+	.events-outer-container {
+		margin-top: 10rem !important;
+		padding-left: 35px !important;
+		padding-right: 35px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.event-image {
+		width: 180% !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.offline-image-container {
+		width: 100% !important;
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.offline-image {
+		width: 100% !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.offline-text {
+		font-size: 14pt !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.profile-main-container {
+		margin-top: 8rem !important;
+		margin-left: 0rem !important;
+		margin-right: 0rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.profile-outer-container {
+		padding: initial 0rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.profile-header {
+		margin: 0px auto !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.profile-text {
+		text-align: center !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.bought-ticket-image {
+		margin-left: 15px !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.ticket-status-container {
+		margin-top: 4rem !important;
+		margin-right: initial !important;
+		margin-left: 0rem !important;
+		margin-bottom: -5.5rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.logout-button {
+		margin-left: 1.25rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+	
+	.samhita-id {
+		font-size: 20pt !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.checkout-image {
+		width: 100% !important;
+	}
+
+	.buy-ticket-container {
+		width: 100% !important;
+	}
+
+	.user-details-container {
+		margin-left: 0rem !important;
+		margin-right: 0rem !important;
+		margin-bottom: -1rem !important;
+	}
+
+	.workshop-table {
+		font-size: 13pt !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.date {
+		font-size: 16pt !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.checkout-detail-row{
+		font-size: 12.5pt !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.contact-columns {
+		width: initial !important;
+	}
+
+	.contact-image {
+		margin-top: initial !important;
+	}
+
+	.sponsors-container {
+		padding: 2rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.kalvimalar {
+		width: 100% !important;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.sponsor {
+		position: relative !important;
+		top: initial !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.sponsors-container {
+		margin-top: 3rem !important;
+		transition: all 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.leaving-banner {
+		margin-top: -0.5rem !important;
+		margin-bottom: -1.5rem !important;
+		text-align: center;
+	}
+}
