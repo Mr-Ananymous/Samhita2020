@@ -2,4 +2,4 @@ Frontend - ReactJS<br/>
 Backend - NodeJS<br/>
 Database - MongoDB<br/>
 Payment Gateway - Cashfree<br/>
-[Website Backup Link](samhita20.herokuapp.com)
+[Website Backup Link](http://samhita20.herokuapp.com/)
